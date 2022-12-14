@@ -1,3 +1,14 @@
+/**
+* Template Name: Personal - v4.2.0
+* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -1139,24 +1150,16 @@ section .container {
 # Credits
 --------------------------------------------------------------*/
 .credits {
+  background-color: #ffffff;
   position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
-  padding: 15px;
-  text-align: right;
-  font-size: 13px;
-  color: #fff;
+  color: #ffffff;
   z-index: 999999;
+  max-height: 15vh;
 }
 
-@media (max-width: 992px) {
-  .credits {
-    text-align: center;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
-  }
-}
 
 .credits a {
   color: #56e3d7;
@@ -1167,6 +1170,22 @@ section .container {
   color: #fff;
 }
 
+.rg_logo {
+  float: left;
+  width: 1ev;
+  padding: 0.5em;
+  z-index: 3;
+
+
+
+}
+.uni_logo{
+  float: right;
+  width: 1ev;
+  padding: 0.5em;
+  z-index : 3;
+
+}
 
 #particles-js {
   background-color: #000000;

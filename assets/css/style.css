@@ -1137,12 +1137,12 @@ section .container {
 # Credits
 --------------------------------------------------------------*/
 .credits {
-  background-color: #EEEEEE;
+  background-color: #FFFFFF;
   position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
-  color: #EEEEEE;
+  color: #FFFFFF;
   z-index: 999999;
   max-height: 15vh;
 }

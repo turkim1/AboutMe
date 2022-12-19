@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.125s;
   position: center;
   height: 100vh;
   display: flex;
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header * {
-  transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.125s;
 }
 
 #header h1 {
@@ -1202,9 +1202,9 @@ section .container {
 @keyframes spin {
   0% { content:"cartographer";}
   
-  30% { content:"geospatial analyst";}
+  33% { content:"geospatial analyst";}
 
-  60% { content:"geologist";}
+  66% { content:"geologist";}
 
   100% { content:"learner";}
 }

@@ -1138,7 +1138,7 @@ section .container {
 --------------------------------------------------------------*/
 .credits {
   background-color: #FFFFFF;
-  position: fixed;
+  position: absolute;
   right: 0;
   left: 0;
   bottom: 0;
